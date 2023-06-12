@@ -204,7 +204,7 @@ transition: all .2s linear;
 
 header{
     position: fixed;
-    top: 0;
+    top: -10px;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -330,8 +330,6 @@ header .navbar{
 }
 header .navbar a{
     font-size: 2rem;
-    background: #fff;
-    border: .1rem solid #000;
     border-radius: .5rem;
     padding: 1rem;
     margin: 1rem;
